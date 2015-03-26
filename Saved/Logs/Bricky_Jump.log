@@ -1,0 +1,651 @@
+﻿Log file open, 03/26/15 11:33:58
+LogInit:Display: Running engine for game: Bricky_Jump
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.26-15.33.58:421][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.26-15.33.58:486][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.26-15.33.58:513][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.26-15.33.58:523][  0]LogInit: Object subsystem initialized
+[2015.03.26-15.33.58:525][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.26-15.33.58:525][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.26-15.33.58:525][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.26-15.33.58:525][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.26-15.33.58:525][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.26-15.33.58:525][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.26-15.33.58:525][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.26-15.33.58:525][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.26-15.33.58:536][  0]LogInit: Computer: JOSH-Z
+[2015.03.26-15.33.58:536][  0]LogInit: User: josh0000
+[2015.03.26-15.33.58:536][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.26-15.33.58:536][  0]LogInit: High frequency timer resolution =3.020483 MHz
+[2015.03.26-15.33.58:536][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2015.03.26-15.33.58:536][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.26-15.33.58:536][  0]LogMemory: Process Physical Memory: 46.27 MB used, 46.27 MB peak
+[2015.03.26-15.33.58:536][  0]LogMemory: Process Virtual Memory: 24.50 MB used, 24.51 MB peak
+[2015.03.26-15.33.58:536][  0]LogMemory: Physical Memory: 2080.11 MB used, 8157.29 MB total
+[2015.03.26-15.33.58:536][  0]LogMemory: Virtual Memory: 286.72 MB used, 134217728.00 MB total
+[2015.03.26-15.33.58:568][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2015.03.26-15.33.58:568][  0]LogD3D11RHI: Adapter has 965MB of dedicated video memory, 0MB of dedicated system memory, and 3072MB of shared system memory, 1 output[s]
+[2015.03.26-15.33.58:569][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.03.26-15.33.58:569][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.03.26-15.33.58:569][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.26-15.33.58:573][  0]LogRHI: Texture pool is 675 MB (70% of 965 MB)
+[2015.03.26-15.33.58:589][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.26-15.33.58:684][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.26-15.33.58:745][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.03.26-15.33.58:745][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.03.26-15.33.58:824][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.26-15.34.01:575][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.26-15.34.02:383][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.26-15.34.02:496][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.26-15.34.02:536][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/josh0_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.26-15.34.02:536][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/josh0_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.26-15.34.02:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.26-15.34.02:536][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.26-15.34.02:661][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.26-15.34.02:674][  0]LogDerivedDataCache: Using Local data cache path C:/Users/josh0_000/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.26-15.34.03:058][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.26-15.34.03:058][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.26-15.34.03:593][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.26-15.34.03:759][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.26-15.34.05:018][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.26-15.34.05:396][  0]SourceControl: Info Source control is disabled
+[2015.03.26-15.34.05:396][  0]SourceControl: Info Source control is disabled
+[2015.03.26-15.34.05:396][  0]SourceControl: Info Source control is disabled
+[2015.03.26-15.34.05:397][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.26-15.34.05:397][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.26-15.34.05:417][  0]SourceControl: Info Source control is disabled
+[2015.03.26-15.34.05:796][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.26-15.34.05:796][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.26-15.34.05:909][  0]LogEngine: Initializing Engine...
+[2015.03.26-15.34.08:097][  0]LogInit: XAudio2 using 'MX279-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.26-15.34.08:111][  0]LogInit: FAudioDevice initialized.
+[2015.03.26-15.34.08:186][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.26-15.34.08:209][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/josh0_000/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.26-15.34.08:212][  0]LogInit: Texture streaming: Enabled
+[2015.03.26-15.34.08:354][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.26-15.34.08:354][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.26-15.34.08:354][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.26-15.34.08:354][  0]LogAnalytics: SetUserId f558b32942bef5a2fd60a48a12316582|39af4b7754b5435aa489489937b2bdaa|fa10b364-4212-454a-bba7-c4bc0c673159
+[2015.03.26-15.34.08:355][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.26-15.34.08:419][  0]LogInit: Transaction tracking system initialized
+[2015.03.26-15.34.08:888][  0]BlueprintLog: New page: Editor Load
+[2015.03.26-15.34.08:960][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.03.26-15.34.08:961][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.26-15.34.10:021][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.26-15.34.10:503][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.26-15.34.11:165][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.26-15.34.11:166][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.26-15.34.11:172][  0]LogConsoleResponse:Display: 
+[2015.03.26-15.34.11:380][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.26-15.34.11:751][  0]SourceControl: Info Source control is disabled
+[2015.03.26-15.34.11:752][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.26-15.34.11:753][  0]LightingResults: New page: Lighting Build
+[2015.03.26-15.34.11:778][  0]MapCheck: New page: Map Check
+[2015.03.26-15.34.11:778][  0]LightingResults: New page: Lighting Build
+[2015.03.26-15.34.11:785][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94F19CD60
+[2015.03.26-15.34.12:790][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.26-15.34.12:795][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.03.26-15.34.12:796][  0]Cmd: MAP CHECKDEP
+[2015.03.26-15.34.12:796][  0]MapCheck: New page: Untitled_1 - Mar 26, 2015, 7:34:12 AM
+[2015.03.26-15.34.12:997][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 201.659ms to complete.
+[2015.03.26-15.34.12:998][  0]LogFileHelpers: Loading map 'Template_Default' took 1.246
+[2015.03.26-15.34.13:163][  0]LogCollectionManager: Loaded 0 collections in 0.002890 seconds
+[2015.03.26-15.34.13:178][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 1696 classes and 261 folders.
+[2015.03.26-15.34.13:253][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0065 seconds. Added 1 classes and 2 folders.
+[2015.03.26-15.34.13:371][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.26-15.34.13:373][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.26-15.34.13:381][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.26-15.34.13:408][  0]LogLoad: Full Startup: 17.37 seconds (BP compile: 0.13 seconds)
+[2015.03.26-15.34.13:440][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Levels'
+[2015.03.26-15.34.13:613][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x568 (Frame:2).
+[2015.03.26-15.34.13:783][  3]LogAssetRegistry: Asset discovery search completed in 4.8338 seconds
+[2015.03.26-15.34.41:519][946]LogRenderer:Warning: Reallocating scene render targets to support 1208x712 (Frame:1146).
+[2015.03.26-15.34.45:912][439]LogEditorViewport: Clicking Background
+[2015.03.26-15.34.50:721][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B95B345BC0
+[2015.03.26-15.34.50:729][887]Cmd: MAP LOAD FILE="../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.26-15.34.50:729][887]LightingResults: New page: Lighting Build
+[2015.03.26-15.34.50:781][887]LoadErrors: New page: Loading map: First_Level.umap
+[2015.03.26-15.34.50:781][887]MapCheck: New page: Map Check
+[2015.03.26-15.34.50:781][887]LightingResults: New page: Lighting Build
+[2015.03.26-15.34.50:796][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94CEFDDA0
+[2015.03.26-15.34.50:834][887]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.26-15.34.50:836][887]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.34.50:872][887]Cmd: MAP CHECKDEP
+[2015.03.26-15.34.50:872][887]MapCheck: New page: First_Level - Mar 26, 2015, 7:34:50 AM
+[2015.03.26-15.34.51:111][887]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 239.07ms to complete.
+[2015.03.26-15.34.51:113][887]LogFileHelpers: Loading map 'First_Level' took 0.386
+[2015.03.26-15.34.59:345][852]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.35.06:401][668]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.35.07:973][832]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.35.22:709][447]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.35.41:171][370]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.35.50:943][410]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.35.52:139][538]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.35.55:208][869]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.38.03:704][796]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.03.26-15.38.04:222][853]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2015.03.26-15.38.05:002][938]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.03.26-15.38.05:845][ 30]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2015.03.26-15.38.38:848][161]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.38.39:588][239]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.38.45:590][897]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.38.46:973][ 55]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.38.48:248][200]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.38.55:478][  8]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.39.04:721][ 41]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.39.13:353][  5]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.39.14:890][170]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.39.45:581][479]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.39.52:511][266]LogEditorViewport: Clicking Background
+[2015.03.26-15.39.53:936][432]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.41.49:316][849]LogSavePackage: Save=74.371216ms
+[2015.03.26-15.41.49:316][849]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_LevelF98F7BF1462DC00D40F43DB84122BC4C.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.41.50:772][997]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.41.50:772][997]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:41:50 AM)
+[2015.03.26-15.41.50:776][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003328s)
+[2015.03.26-15.41.50:777][997]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2015.03.26-15.41.50:777][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.004067s)
+[2015.03.26-15.41.50:837][997]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.41.50:840][997]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.41.50:844][997]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.41.50
+[2015.03.26-15.41.50:845][997]LogWorld: Bringing up level for play took: 0.004646
+[2015.03.26-15.41.50:863][997]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.173
+[2015.03.26-15.41.53:704][327]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B95DD8E0C0
+[2015.03.26-15.41.57:577][740]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.43.17:967][924]BlueprintLog: New page: Compile Bricky
+[2015.03.26-15.43.18:113][924]BlueprintEditorCompileResults: Info [0562.08] Compile of Bricky successful! [in 145 ms]
+[2015.03.26-15.43.18:823][993]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.43.18:824][993]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:43:18 AM)
+[2015.03.26-15.43.18:827][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003444s)
+[2015.03.26-15.43.18:828][993]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2015.03.26-15.43.18:828][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.004237s)
+[2015.03.26-15.43.18:862][993]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.43.18:865][993]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.43.18:870][993]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.43.18
+[2015.03.26-15.43.18:871][993]LogWorld: Bringing up level for play took: 0.004851
+[2015.03.26-15.43.18:881][993]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.155
+[2015.03.26-15.43.18:889][993]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:52951).
+[2015.03.26-15.43.21:660][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94D040CC0
+[2015.03.26-15.44.47:018][799]LogSavePackage: Save=73.102219ms
+[2015.03.26-15.44.47:018][799]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level0329DF5D4F5A8796FBF04E9BF54D7E39.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.44.49:207][ 27]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.44.57:471][834]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.45.03:529][492]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.45.13:025][142]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.45.13:701][211]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.45.17:934][663]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.45.26:374][575]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.45.31:861][169]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.45.33:811][376]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.45.34:292][423]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.45.34:946][490]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.45.36:130][617]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.45.39:430][973]Cmd: MODE GRID=0
+[2015.03.26-15.45.41:274][173]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.45.42:470][302]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.45.43:063][362]Cmd: MODE GRID=1
+[2015.03.26-15.45.44:514][516]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.45.54:318][548]LogSavePackage: Save=73.804756ms
+[2015.03.26-15.45.54:318][548]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_LevelA3CA9D744D224FF0C5232BA5F563F248.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.45.54:942][608]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.26-15.45.54:952][608]LogPlayLevel: [PIE] Compiling Bricky before PIE...
+[2015.03.26-15.45.55:058][608]LogPlayLevel: PIE:  Blueprint regeneration took 115 ms (1 blueprints)
+[2015.03.26-15.45.55:058][608]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:45:55 AM)
+[2015.03.26-15.45.55:062][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003176s)
+[2015.03.26-15.45.55:062][608]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2015.03.26-15.45.55:062][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003899s)
+[2015.03.26-15.45.55:095][608]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.45.55:098][608]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.45.55:102][608]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.45.55
+[2015.03.26-15.45.55:103][608]LogWorld: Bringing up level for play took: 0.004095
+[2015.03.26-15.45.55:108][608]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.072
+[2015.03.26-15.45.57:761][916]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9588F00E0
+[2015.03.26-15.46.02:778][451]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.46.05:960][797]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (floor_texture_Sprite_2)
+[2015.03.26-15.46.09:755][196]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.46.24:810][828]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.46.25:861][941]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.46.26:591][ 18]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.46.27:545][116]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.46.35:485][970]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.46.49:309][426]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.46.51:514][664]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.46.51:521][664]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.46.55:183][ 54]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.47.05:941][215]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.47.09:464][583]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.47.10:693][691]LogSavePackage: Save=73.995781ms
+[2015.03.26-15.47.10:693][691]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level10EAD14B4E77C839755F8C8AA487EDAF.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.47.11:341][751]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.47.11:342][751]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:47:11 AM)
+[2015.03.26-15.47.11:345][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003219s)
+[2015.03.26-15.47.11:346][751]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2015.03.26-15.47.11:346][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003932s)
+[2015.03.26-15.47.11:379][751]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.47.11:381][751]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.47.11:386][751]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.47.11
+[2015.03.26-15.47.11:387][751]LogWorld: Bringing up level for play took: 0.004639
+[2015.03.26-15.47.11:392][751]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.356
+[2015.03.26-15.47.13:495][994]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94A1E9620
+[2015.03.26-15.47.16:290][279]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.47.24:158][123]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.47.26:032][287]LogSavePackage: Save=74.928413ms
+[2015.03.26-15.47.26:032][287]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_LevelB7398A3740D3821A779BFF96B85CF23C.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.47.26:559][335]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.47.26:559][335]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:47:26 AM)
+[2015.03.26-15.47.26:563][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003113s)
+[2015.03.26-15.47.26:563][335]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2015.03.26-15.47.26:563][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003786s)
+[2015.03.26-15.47.26:599][335]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.47.26:602][335]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.47.26:606][335]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.47.26
+[2015.03.26-15.47.26:607][335]LogWorld: Bringing up level for play took: 0.004616
+[2015.03.26-15.47.26:612][335]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.423
+[2015.03.26-15.47.27:494][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94A181F80
+[2015.03.26-15.47.28:312][514]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.47.29:619][648]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.47.30:915][773]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.47.30:916][773]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:47:30 AM)
+[2015.03.26-15.47.30:919][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003273s)
+[2015.03.26-15.47.30:920][773]LogPlayLevel: PIE: World Init took: (0.000501s)
+[2015.03.26-15.47.30:920][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003945s)
+[2015.03.26-15.47.30:958][773]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.47.30:961][773]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.47.30:965][773]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.47.30
+[2015.03.26-15.47.30:966][773]LogWorld: Bringing up level for play took: 0.004610
+[2015.03.26-15.47.30:972][773]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.064
+[2015.03.26-15.47.32:755][975]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B957215580
+[2015.03.26-15.47.33:663][ 46]LogSavePackage: Save=72.676453ms
+[2015.03.26-15.47.33:663][ 46]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level1285D5C1432A77CBF675BBAEA939C6F4.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.47.34:270][ 95]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.47.34:270][ 95]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:47:34 AM)
+[2015.03.26-15.47.34:274][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003105s)
+[2015.03.26-15.47.34:274][ 95]LogPlayLevel: PIE: World Init took: (0.000469s)
+[2015.03.26-15.47.34:274][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003713s)
+[2015.03.26-15.47.34:312][ 95]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.47.34:315][ 95]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.47.34:319][ 95]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.47.34
+[2015.03.26-15.47.34:320][ 95]LogWorld: Bringing up level for play took: 0.004586
+[2015.03.26-15.47.34:325][ 95]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.71
+[2015.03.26-15.47.34:893][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B95B3700E0
+[2015.03.26-15.47.35:600][225]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.47.36:092][273]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.47.38:860][569]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.47.39:954][662]LogSavePackage: Save=73.643188ms
+[2015.03.26-15.47.39:954][662]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level57D4442644ABA6DD6A19A99A51A3988F.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.47.40:528][715]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.47.40:529][715]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:47:40 AM)
+[2015.03.26-15.47.40:532][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003547s)
+[2015.03.26-15.47.40:533][715]LogPlayLevel: PIE: World Init took: (0.000500s)
+[2015.03.26-15.47.40:533][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.004201s)
+[2015.03.26-15.47.40:569][715]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.47.40:572][715]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.47.40:576][715]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.47.40
+[2015.03.26-15.47.40:577][715]LogWorld: Bringing up level for play took: 0.004737
+[2015.03.26-15.47.40:583][715]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.453
+[2015.03.26-15.47.42:142][893]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B95B370E00
+[2015.03.26-15.47.42:827][962]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.47.47:286][443]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.47.48:203][522]LogSavePackage: Save=73.414085ms
+[2015.03.26-15.47.48:203][522]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level3CDF845C43DE68AA5D46B39506F7E8CC.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.47.48:869][579]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.47.48:869][579]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:47:48 AM)
+[2015.03.26-15.47.48:872][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003138s)
+[2015.03.26-15.47.48:873][579]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2015.03.26-15.47.48:873][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003784s)
+[2015.03.26-15.47.48:910][579]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.47.48:913][579]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.47.48:917][579]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.47.48
+[2015.03.26-15.47.48:918][579]LogWorld: Bringing up level for play took: 0.004594
+[2015.03.26-15.47.48:924][579]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.112
+[2015.03.26-15.47.50:174][721]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B962904A40
+[2015.03.26-15.47.51:717][884]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.47.53:226][ 25]LogSavePackage: Save=71.268738ms
+[2015.03.26-15.47.53:226][ 25]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level49B44DD44F447D9EB63860B14037BB87.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.47.54:443][150]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.47.54:443][150]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:47:54 AM)
+[2015.03.26-15.47.54:447][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003307s)
+[2015.03.26-15.47.54:447][150]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2015.03.26-15.47.54:448][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003987s)
+[2015.03.26-15.47.54:482][150]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.47.54:485][150]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.47.54:490][150]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.47.54
+[2015.03.26-15.47.54:490][150]LogWorld: Bringing up level for play took: 0.004606
+[2015.03.26-15.47.54:496][150]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.54
+[2015.03.26-15.47.55:945][316]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94D05DF80
+[2015.03.26-15.47.57:818][513]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.47.58:838][600]LogSavePackage: Save=73.254181ms
+[2015.03.26-15.47.58:838][600]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level1E7D34A2400C94B1F20600B88AA3F20B.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.47.59:391][651]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.47.59:392][651]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:47:59 AM)
+[2015.03.26-15.47.59:395][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003179s)
+[2015.03.26-15.47.59:396][651]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2015.03.26-15.47.59:396][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003843s)
+[2015.03.26-15.47.59:430][651]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.47.59:433][651]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.47.59:437][651]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.47.59
+[2015.03.26-15.47.59:438][651]LogWorld: Bringing up level for play took: 0.004614
+[2015.03.26-15.47.59:443][651]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.408
+[2015.03.26-15.48.00:780][802]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94D05FEC0
+[2015.03.26-15.48.01:831][889]LogSavePackage: Save=76.010689ms
+[2015.03.26-15.48.01:831][889]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level0DC7BFC844D0246E084E2B98D3C69525.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.48.03:119][ 19]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.48.03:119][ 19]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:48:03 AM)
+[2015.03.26-15.48.03:123][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003177s)
+[2015.03.26-15.48.03:123][ 19]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2015.03.26-15.48.03:123][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003807s)
+[2015.03.26-15.48.03:159][ 19]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.48.03:162][ 19]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.48.03:166][ 19]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.48.03
+[2015.03.26-15.48.03:167][ 19]LogWorld: Bringing up level for play took: 0.004598
+[2015.03.26-15.48.03:172][ 19]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.137
+[2015.03.26-15.48.03:733][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94D05F060
+[2015.03.26-15.48.04:616][167]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.48.06:513][357]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.48.07:059][413]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (PlayerStart)
+[2015.03.26-15.48.42:720][778]LogSavePackage: Save=73.638885ms
+[2015.03.26-15.48.42:720][778]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level2AB4AB794F64707BE425B2A4B5485AE5.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.48.43:228][825]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.48.43:229][825]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:48:43 AM)
+[2015.03.26-15.48.43:232][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003126s)
+[2015.03.26-15.48.43:233][825]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2015.03.26-15.48.43:233][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003882s)
+[2015.03.26-15.48.43:267][825]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.48.43:270][825]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.48.43:274][825]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.48.43
+[2015.03.26-15.48.43:275][825]LogWorld: Bringing up level for play took: 0.004572
+[2015.03.26-15.48.43:280][825]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.245
+[2015.03.26-15.48.44:995][ 23]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94A180720
+[2015.03.26-15.48.50:202][583]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (PlayerStart)
+[2015.03.26-15.49.06:539][ 80]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (PlayerStart)
+[2015.03.26-15.49.22:824][550]LogEditorViewport: Clicking on Actor (context menu): PlayerStart (PlayerStart)
+[2015.03.26-15.49.34:608][665]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.49.34:616][665]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.49.35:643][756]LogSavePackage: Save=72.497345ms
+[2015.03.26-15.49.35:643][756]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_LevelAA635A5A41B4D22A1E19339EB6D82200.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.49.36:336][815]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.49.36:336][815]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:49:36 AM)
+[2015.03.26-15.49.36:340][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003282s)
+[2015.03.26-15.49.36:340][815]LogPlayLevel: PIE: World Init took: (0.000552s)
+[2015.03.26-15.49.36:340][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.004013s)
+[2015.03.26-15.49.36:380][815]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.49.36:384][815]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.49.36:388][815]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.49.36
+[2015.03.26-15.49.36:389][815]LogWorld: Bringing up level for play took: 0.004641
+[2015.03.26-15.49.36:394][815]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.642
+[2015.03.26-15.49.38:107][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94D043060
+[2015.03.26-15.49.39:214][107]LogSavePackage: Save=77.016487ms
+[2015.03.26-15.49.39:214][107]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level663ED62F4F87B81CC195AA8DC475653B.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.49.40:875][273]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.49.40:875][273]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:49:40 AM)
+[2015.03.26-15.49.40:879][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003386s)
+[2015.03.26-15.49.40:879][273]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2015.03.26-15.49.40:879][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.004042s)
+[2015.03.26-15.49.40:918][273]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.49.40:921][273]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.49.40:925][273]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.49.40
+[2015.03.26-15.49.40:926][273]LogWorld: Bringing up level for play took: 0.004674
+[2015.03.26-15.49.40:932][273]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.104
+[2015.03.26-15.49.41:630][349]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94FD579C0
+[2015.03.26-15.49.47:908][ 20]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.49.47:909][ 20]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:49:47 AM)
+[2015.03.26-15.49.47:912][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003343s)
+[2015.03.26-15.49.47:913][ 20]LogPlayLevel: PIE: World Init took: (0.000493s)
+[2015.03.26-15.49.47:913][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.004012s)
+[2015.03.26-15.49.47:948][ 20]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.49.47:951][ 20]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.49.47:956][ 20]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.49.47
+[2015.03.26-15.49.47:956][ 20]LogWorld: Bringing up level for play took: 0.004590
+[2015.03.26-15.49.47:962][ 20]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.926
+[2015.03.26-15.49.50:465][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94A1E8D60
+[2015.03.26-15.50.51:596][585]BlueprintLog: New page: Compile Bricky
+[2015.03.26-15.50.51:735][585]BlueprintEditorCompileResults: Info [1015.70] Compile of Bricky successful! [in 139 ms]
+[2015.03.26-15.50.58:870][174]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2015.03.26-15.50.59:505][243]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Levels'
+[2015.03.26-15.51.00:080][305]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Data'
+[2015.03.26-15.51.00:804][383]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.03.26-15.51.01:637][473]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.03.26-15.51.02:231][537]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites'
+[2015.03.26-15.51.06:086][954]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Textures'
+[2015.03.26-15.51.07:755][135]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Animations'
+[2015.03.26-15.51.11:228][442]LogRenderer:Warning: Reallocating scene render targets to support 1528x800 (Frame:102763).
+[2015.03.26-15.51.32:396][538]LogRenderer:Warning: Reallocating scene render targets to support 1528x912 (Frame:105267).
+[2015.03.26-15.52.28:057][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B95CC160C0
+[2015.03.26-15.52.28:057][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B962AE4FE0
+[2015.03.26-15.52.28:058][985]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B957001F80
+[2015.03.26-15.52.28:196][985]LogSavePackage: Save=109.104408ms
+[2015.03.26-15.52.28:196][985]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level26492D164BC1FC3AECE027B79F5855DA.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.52.29:323][ 83]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.52.29:324][ 83]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:52:29 AM)
+[2015.03.26-15.52.29:327][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003201s)
+[2015.03.26-15.52.29:328][ 83]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2015.03.26-15.52.29:328][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003986s)
+[2015.03.26-15.52.29:366][ 83]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.52.29:370][ 83]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.52.29:374][ 83]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.52.29
+[2015.03.26-15.52.29:375][ 83]LogWorld: Bringing up level for play took: 0.004630
+[2015.03.26-15.52.29:380][ 83]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.344
+[2015.03.26-15.52.34:305][665]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B95B3700E0
+[2015.03.26-15.52.57:939][997]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Sprites/Backgrounds'
+[2015.03.26-15.53.00:829][262]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0085 seconds. Added 1 classes and 2 folders.
+[2015.03.26-15.53.10:686][242]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2015.03.26-15.53.24:845][ 64]LogSavePackage: Save=59.292835ms
+[2015.03.26-15.53.24:845][ 64]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/floor_texture_Sprite_0A79E0ECD4561DB42C67CECAED5138998.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Textures/floor_texture_Sprite_0.uasset'
+[2015.03.26-15.53.27:041][196]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.53.27:041][196]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:53:27 AM)
+[2015.03.26-15.53.27:045][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003276s)
+[2015.03.26-15.53.27:046][196]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2015.03.26-15.53.27:046][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.004007s)
+[2015.03.26-15.53.27:077][196]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.53.27:081][196]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.53.27:086][196]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.53.27
+[2015.03.26-15.53.27:086][196]LogWorld: Bringing up level for play took: 0.004613
+[2015.03.26-15.53.27:092][196]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.056
+[2015.03.26-15.53.29:372][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B97126A5C0
+[2015.03.26-15.53.29:373][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94D043380
+[2015.03.26-15.53.29:373][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94D05ECA0
+[2015.03.26-15.53.30:604][510]LogSavePackage: Save=106.275719ms
+[2015.03.26-15.53.30:604][510]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level5761FC6F442583E8863521B329EBD24E.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.53.35:967][800]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (floor_texture_Sprite_2)
+[2015.03.26-15.53.39:854][979]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (floor_texture_Sprite_0)
+[2015.03.26-15.53.43:173][132]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (floor_texture_Sprite_3)
+[2015.03.26-15.53.46:520][283]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.53.47:577][339]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.53.50:239][467]LogSavePackage: Save=73.821304ms
+[2015.03.26-15.53.50:239][467]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level6518D1FF40B3A2D274BA9FB3D95EC814.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.53.52:820][587]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.53.54:229][653]LogSavePackage: Save=73.596840ms
+[2015.03.26-15.53.54:229][653]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level322A06534CD2E7D29886818A386765F8.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.53.54:736][679]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.53.54:736][679]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:53:54 AM)
+[2015.03.26-15.53.54:740][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003167s)
+[2015.03.26-15.53.54:740][679]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2015.03.26-15.53.54:740][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003846s)
+[2015.03.26-15.53.54:778][679]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.53.54:782][679]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.53.54:786][679]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.53.54
+[2015.03.26-15.53.54:787][679]LogWorld: Bringing up level for play took: 0.004610
+[2015.03.26-15.53.54:792][679]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.244
+[2015.03.26-15.53.56:801][912]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94D05EC00
+[2015.03.26-15.53.59:897][ 61]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.54.01:114][119]LogSavePackage: Save=74.710899ms
+[2015.03.26-15.54.01:114][119]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level7331139742F1E22C153FA9B68782D751.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.54.01:682][145]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.54.01:682][145]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:54:01 AM)
+[2015.03.26-15.54.01:686][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003115s)
+[2015.03.26-15.54.01:686][145]LogPlayLevel: PIE: World Init took: (0.000466s)
+[2015.03.26-15.54.01:687][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003763s)
+[2015.03.26-15.54.01:720][145]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.54.01:723][145]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.54.01:727][145]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.54.01
+[2015.03.26-15.54.01:728][145]LogWorld: Bringing up level for play took: 0.004597
+[2015.03.26-15.54.01:733][145]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.697
+[2015.03.26-15.54.02:513][229]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9712693A0
+[2015.03.26-15.54.06:118][416]LogSavePackage: Save=78.510620ms
+[2015.03.26-15.54.06:118][416]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level15E4DE0F4AAF7CBBC4E561A144DC41A8.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.54.07:578][496]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.54.07:578][496]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:54:07 AM)
+[2015.03.26-15.54.07:582][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003251s)
+[2015.03.26-15.54.07:583][496]LogPlayLevel: PIE: World Init took: (0.000518s)
+[2015.03.26-15.54.07:583][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003924s)
+[2015.03.26-15.54.07:621][496]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.54.07:623][496]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.54.07:627][496]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.54.07
+[2015.03.26-15.54.07:628][496]LogWorld: Bringing up level for play took: 0.004627
+[2015.03.26-15.54.07:633][496]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level 0.598
+[2015.03.26-15.54.09:026][654]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B96DFD34C0
+[2015.03.26-15.54.13:701][886]LogSavePackage: Save=79.940529ms
+[2015.03.26-15.54.13:701][886]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level7BABE1E7462025D775C78FBC8AACC2C4.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Content/Levels/First_Level.umap'
+[2015.03.26-15.54.14:330][917]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.26-15.54.14:330][917]PIE: New page: PIE session: First_Level (Mar 26, 2015, 7:54:14 AM)
+[2015.03.26-15.54.14:334][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003124s)
+[2015.03.26-15.54.14:334][917]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2015.03.26-15.54.14:335][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/First_Level.First_Level to /Game/Levels/UEDPIE_0_First_Level.First_Level (0.003784s)
+[2015.03.26-15.54.14:371][917]LogWorld: Game class is 'Normal_Mode_C'
+[2015.03.26-15.54.14:374][917]LogAIModule: Creating AISystem for world First_Level
+[2015.03.26-15.54.14:379][917]LogWorld: Bringing World /Game/Levels/UEDPIE_0_First_Level.First_Level up for play (max tick rate 0) at 2015.03.26-11.54.14
+[2015.03.26-15.54.14:379][917]LogWorld: Bringing up level for play took: 0.004646
+[2015.03.26-15.54.14:385][917]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_First_Level -0.651
+[2015.03.26-15.54.15:220][  8]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B94FD549A0
+[2015.03.26-15.54.16:294][ 67]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.54.17:905][141]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.54.19:414][213]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Test_Level_BG_Sprite)
+[2015.03.26-15.54.21:115][308]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.54.34:236][  8]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.03.26-15.54.36:520][137]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (floor_texture_Sprite_2)
+[2015.03.26-15.54.40:373][354]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.54.41:380][409]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (floor_texture_Sprite_2)
+[2015.03.26-15.54.45:901][656]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.03.26-15.56.07:966][107]MainFrameActions: Cooking (Windows): Running AutomationTool...
+[2015.03.26-15.56.08:582][133]MainFrameActions: Cooking (Windows): Program.Main: Running on WindowsHostPlatform
+[2015.03.26-15.56.08:743][142]MainFrameActions: Cooking (Windows): Program.Main: CWD=C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET
+[2015.03.26-15.56.08:819][146]MainFrameActions: Cooking (Windows): Automation.ParseCommandLine: Parsing command line: BuildCookRun -rocket -nocompile -nocodeproject -installed -nop4 -project=C:/Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Bricky_Jump.uproject -cook -allmaps -ue4exe=UE4Editor-Cmd.exe -targetplatform=Win64 -NoCompile
+[2015.03.26-15.56.08:830][147]MainFrameActions: Cooking (Windows): Automation.Process: IsBuildMachine=False
+[2015.03.26-15.56.08:830][147]MainFrameActions: Cooking (Windows): Automation.Process: ShouldKillProcesses=True
+[2015.03.26-15.56.08:830][147]MainFrameActions: Cooking (Windows): Automation.Process: Setting up command environment.
+[2015.03.26-15.56.08:833][147]MainFrameActions: Cooking (Windows): InternalUtils.SafeFileExists: SafeFileExists C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationTool.exe=True
+[2015.03.26-15.56.08:835][147]MainFrameActions: Cooking (Windows): InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_LOCAL_ROOT=
+[2015.03.26-15.56.08:835][147]MainFrameActions: Cooking (Windows): InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_LOCAL_ROOT=C:/Program Files/Epic Games/4.7
+[2015.03.26-15.56.08:836][147]MainFrameActions: Cooking (Windows): CommandUtils.SetEnvVar: SetEnvVar uebp_EngineSavedFolder=C:/Program Files/Epic Games/4.7/Engine/Programs/AutomationTool/Saved
+[2015.03.26-15.56.08:837][147]MainFrameActions: Cooking (Windows): InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_LogFolder=
+[2015.03.26-15.56.08:837][147]MainFrameActions: Cooking (Windows): InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable uebp_LOCAL_ROOT=C:/Program Files/Epic Games/4.7
+[2015.03.26-15.56.08:846][148]MainFrameActions: Cooking (Windows): InternalUtils.SafeFileExists: SafeFileExists C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationTool.exe=True
+[2015.03.26-15.56.08:846][148]MainFrameActions: Cooking (Windows): CommandUtils.GetEnvVar: GetEnvironmentVariable uebp_LOCAL_ROOT=C:/Program Files/Epic Games/4.7
+[2015.03.26-15.56.08:846][148]MainFrameActions: Cooking (Windows): CommandUtils.GetEnvVar: GetEnvironmentVariable uebp_EngineSavedFolder=C:/Program Files/Epic Games/4.7/Engine/Programs/AutomationTool/Saved
+[2015.03.26-15.56.08:846][148]MainFrameActions: Cooking (Windows): CommandUtils.GetEnvVar: GetEnvironmentVariable uebp_EngineSavedFolder=C:/Program Files/Epic Games/4.7/Engine/Programs/AutomationTool/Saved
+[2015.03.26-15.56.08:847][148]MainFrameActions: Cooking (Windows): CommandUtils.GetEnvVar: GetEnvironmentVariable uebp_LogFolder=C:/Users/josh0_000/AppData/Roaming/Unreal Engine/AutomationTool/Logs/C+Program+Files+Epic+Games+4.7
+[2015.03.26-15.56.08:852][148]MainFrameActions: Cooking (Windows): InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable FrameworkDir=
+[2015.03.26-15.56.08:852][148]MainFrameActions: Cooking (Windows): InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable FrameworkVersion=
+[2015.03.26-15.56.08:852][148]MainFrameActions: Cooking (Windows): WindowsHostPlatform.SetFrameworkVars: Setting .Net Framework environment variables.
+[2015.03.26-15.56.08:852][148]MainFrameActions: Cooking (Windows): WindowsHostPlatform.SetFrameworkVars: Supports64bitExecutables=True
+[2015.03.26-15.56.08:855][148]MainFrameActions: Cooking (Windows): WindowsHostPlatform.SetFrameworkVars: WindowsPlatform.CompilerVisualStudio2013
+[2015.03.26-15.56.08:880][150]MainFrameActions: Cooking (Windows): WindowsHostPlatform.SetFrameworkVars: WindowsSDKDir=C:\Program Files (x86)\Windows Kits\8.1\
+[2015.03.26-15.56.08:881][150]MainFrameActions: Cooking (Windows): WindowsHostPlatform.SetFrameworkVars: BaseVSToolPath=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools
+[2015.03.26-15.56.08:881][150]MainFrameActions: Cooking (Windows): WindowsHostPlatform.SetFrameworkVars: Setting VS environment variables via C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\..\..\VC\bin\x86_amd64\vcvarsx86_amd64.bat.
+[2015.03.26-15.56.08:898][151]MainFrameActions: Cooking (Windows): InternalUtils.SafeDeleteFile: SafeDeleteFile C:\Users\josh0_000\AppData\Local\Temp\HarvestEnvVars.txt
+[2015.03.26-15.56.08:921][152]MainFrameActions: Cooking (Windows): InternalUtils.SafeFileExists: SafeFileExists C:\Users\josh0_000\AppData\Local\Temp\HarvestEnvVars.bat=True
+[2015.03.26-15.56.08:921][152]MainFrameActions: Cooking (Windows): CommandUtils.Run: Run: C:\Users\josh0_000\AppData\Local\Temp\HarvestEnvVars.bat 
+[2015.03.26-15.56.09:252][171]MainFrameActions: Cooking (Windows): HarvestEnvVars: 
+[2015.03.26-15.56.09:252][171]MainFrameActions: Cooking (Windows): HarvestEnvVars: C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET>call "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\..\..\VC\bin\x86_amd64\vcvarsx86_amd64.bat" 
+[2015.03.26-15.56.10:328][231]MainFrameActions: Cooking (Windows): HarvestEnvVars: 
+[2015.03.26-15.56.10:328][231]MainFrameActions: Cooking (Windows): HarvestEnvVars: C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET>set  1>"C:\Users\josh0_000\AppData\Local\Temp\HarvestEnvVars.txt" 
+[2015.03.26-15.56.10:345][232]MainFrameActions: Cooking (Windows): CommandUtils.Run: Run: Took 1.4189469s to run HarvestEnvVars.bat, ExitCode=0
+[2015.03.26-15.56.10:346][232]MainFrameActions: Cooking (Windows): CommandUtils.SetEnvVar: SetEnvVar FrameworkDir=C:\WINDOWS\Microsoft.NET\Framework\
+[2015.03.26-15.56.10:346][232]MainFrameActions: Cooking (Windows): CommandUtils.SetEnvVar: SetEnvVar FrameworkVersion=v4.0.30319
+[2015.03.26-15.56.10:346][232]MainFrameActions: Cooking (Windows): WindowsHostPlatform.SetFrameworkVars: FrameworkDir=C:\WINDOWS\Microsoft.NET\Framework\
+[2015.03.26-15.56.10:346][232]MainFrameActions: Cooking (Windows): WindowsHostPlatform.SetFrameworkVars: FrameworkVersion=v4.0.30319
+[2015.03.26-15.56.10:346][232]MainFrameActions: Cooking (Windows): InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable FrameworkDir=C:\WINDOWS\Microsoft.NET\Framework\
+[2015.03.26-15.56.10:346][232]MainFrameActions: Cooking (Windows): InternalUtils.GetEnvironmentVariable: GetEnvironmentVariable FrameworkVersion=v4.0.30319
+[2015.03.26-15.56.10:346][232]MainFrameActions: Cooking (Windows): InternalUtils.SafeFileExists: SafeFileExists C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe=True
+[2015.03.26-15.56.10:366][233]MainFrameActions: Cooking (Windows): CommandEnvironment.SetupBuildEnvironment: C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\..\IDE\Devenv.com does not exist.
+[2015.03.26-15.56.10:366][233]MainFrameActions: Cooking (Windows): CommandEnvironment.SetupBuildEnvironment: Assuming no solution compilation capability.
+[2015.03.26-15.56.10:366][233]MainFrameActions: Cooking (Windows): CommandEnvironment.SetupBuildEnvironment: CompilationEvironment.HasCapabilityToCompile=True
+[2015.03.26-15.56.10:366][233]MainFrameActions: Cooking (Windows): CommandEnvironment.SetupBuildEnvironment: CompilationEvironment.MsBuildExe=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe
+[2015.03.26-15.56.10:366][233]MainFrameActions: Cooking (Windows): CommandEnvironment.SetupBuildEnvironment: CompilationEvironment.MsDevExe=
+[2015.03.26-15.56.10:367][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: Command Environment settings:
+[2015.03.26-15.56.10:367][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: CmdExe=C:\WINDOWS\system32\cmd.exe
+[2015.03.26-15.56.10:367][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: EngineSavedFolder=C:/Program Files/Epic Games/4.7/Engine/Programs/AutomationTool/Saved
+[2015.03.26-15.56.10:367][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: HasCapabilityToCompile=True
+[2015.03.26-15.56.10:367][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: LocalRoot=C:/Program Files/Epic Games/4.7
+[2015.03.26-15.56.10:367][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: LogFolder=C:/Users/josh0_000/AppData/Roaming/Unreal Engine/AutomationTool/Logs/C+Program+Files+Epic+Games+4.7
+[2015.03.26-15.56.10:368][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: MountExe=C:\WINDOWS\system32\mount.exe
+[2015.03.26-15.56.10:368][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: MsBuildExe=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe
+[2015.03.26-15.56.10:368][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: MsDevExe=
+[2015.03.26-15.56.10:368][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: RobocopyExe=C:\WINDOWS\system32\robocopy.exe
+[2015.03.26-15.56.10:368][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: TimestampAsString=2015-03-26_11.56.08
+[2015.03.26-15.56.10:368][233]MainFrameActions: Cooking (Windows): CommandEnvironment.LogSettings: UATExe=C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationTool.exe
+[2015.03.26-15.56.10:380][234]MainFrameActions: Cooking (Windows): ProjectUtils.CleanupFolders: Cleaning up project rules folder
+[2015.03.26-15.56.10:380][234]MainFrameActions: Cooking (Windows): Automation.Process: Compiling scripts.
+[2015.03.26-15.56.10:468][239]MainFrameActions: Cooking (Windows): ScriptCompiler.LoadPreCompiledScriptAssemblies: Loading precompiled script DLLs
+[2015.03.26-15.56.10:468][239]MainFrameActions: Cooking (Windows): ScriptCompiler.LoadPreCompiledScriptAssemblies: Found 6 script DLL(s).
+[2015.03.26-15.56.10:469][239]MainFrameActions: Cooking (Windows): ScriptCompiler.LoadPreCompiledScriptAssemblies: Loading script DLL: C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\AutomationScripts.Automation.dll
+[2015.03.26-15.56.10:852][261]MainFrameActions: Cooking (Windows): ScriptCompiler.LoadPreCompiledScriptAssemblies: Loading script DLL: C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Win.Automation.dll
+[2015.03.26-15.56.10:910][264]MainFrameActions: Cooking (Windows): ScriptCompiler.LoadPreCompiledScriptAssemblies: Loading script DLL: C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Android\Android.Automation.dll
+[2015.03.26-15.56.10:957][267]MainFrameActions: Cooking (Windows): ScriptCompiler.LoadPreCompiledScriptAssemblies: Loading script DLL: C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\HTML5\HTML5.Automation.dll
+[2015.03.26-15.56.10:975][268]MainFrameActions: Cooking (Windows): ScriptCompiler.LoadPreCompiledScriptAssemblies: Loading script DLL: C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\IOS\IOS.Automation.dll
+[2015.03.26-15.56.11:012][270]MainFrameActions: Cooking (Windows): ScriptCompiler.LoadPreCompiledScriptAssemblies: Loading script DLL: C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Linux\Linux.Automation.dll
+[2015.03.26-15.56.11:064][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Looking for platforms in C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\AutomationScripts.Automation.dll
+[2015.03.26-15.56.11:064][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Looking for platforms in C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Win.Automation.dll
+[2015.03.26-15.56.11:064][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Creating platform Win64Platform from C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Win.Automation.dll.
+[2015.03.26-15.56.11:064][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Creating platform Win32Platform from C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Win.Automation.dll.
+[2015.03.26-15.56.11:064][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Looking for platforms in C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Android\Android.Automation.dll
+[2015.03.26-15.56.11:067][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Creating platform AndroidPlatform from C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Android\Android.Automation.dll.
+[2015.03.26-15.56.11:067][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Looking for platforms in C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\HTML5\HTML5.Automation.dll
+[2015.03.26-15.56.11:067][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Creating platform HTML5Platform from C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\HTML5\HTML5.Automation.dll.
+[2015.03.26-15.56.11:068][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Looking for platforms in C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\IOS\IOS.Automation.dll
+[2015.03.26-15.56.11:068][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Creating platform IOSPlatform from C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\IOS\IOS.Automation.dll.
+[2015.03.26-15.56.11:068][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Looking for platforms in C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Linux\Linux.Automation.dll
+[2015.03.26-15.56.11:068][273]MainFrameActions: Cooking (Windows): Platform.CreatePlatformsFromAssembly: Creating platform GenericLinuxPlatform from C:\Program Files\Epic Games\4.7\Engine\Binaries\DotNET\AutomationScripts\Linux\Linux.Automation.dll.
+[2015.03.26-15.56.11:080][274]MainFrameActions: Cooking (Windows): Platform.InitializePlatforms: Creating placeholder platform for target: Unknown
+[2015.03.26-15.56.11:080][274]MainFrameActions: Cooking (Windows): Platform.InitializePlatforms: Creating placeholder platform for target: Mac
+[2015.03.26-15.56.11:080][274]MainFrameActions: Cooking (Windows): Platform.InitializePlatforms: Creating placeholder platform for target: XboxOne
+[2015.03.26-15.56.11:081][274]MainFrameActions: Cooking (Windows): Platform.InitializePlatforms: Creating placeholder platform for target: PS4
+[2015.03.26-15.56.11:081][274]MainFrameActions: Cooking (Windows): Platform.InitializePlatforms: Creating placeholder platform for target: WinRT
+[2015.03.26-15.56.11:081][274]MainFrameActions: Cooking (Windows): Platform.InitializePlatforms: Creating placeholder platform for target: WinRT_ARM
+[2015.03.26-15.56.11:083][274]MainFrameActions: Cooking (Windows): CommandUtils.InitP4Support: Initializing AllowSubmit.
+[2015.03.26-15.56.11:084][274]MainFrameActions: Cooking (Windows): CommandUtils.InitP4Support: AllowSubmit=False
+[2015.03.26-15.56.11:084][274]MainFrameActions: Cooking (Windows): CommandUtils.InitP4Support: Initializing P4Enabled.
+[2015.03.26-15.56.11:097][275]MainFrameActions: Cooking (Windows): CommandUtils.InitP4Support: P4Enabled=False
+[2015.03.26-15.56.11:097][275]MainFrameActions: Cooking (Windows): CommandUtils.InitP4Support: P4CLRequired=False
+[2015.03.26-15.56.11:103][275]MainFrameActions: Cooking (Windows): InternalUtils.SafeFileExists: SafeFileExists C:\Users\josh0_000\Documents\Unreal Projects\Bricky_Jump\Bricky_Jump.uproject=True
+[2015.03.26-15.56.11:103][275]MainFrameActions: Cooking (Windows): InternalUtils.SafeFileExists: SafeFileExists C:\Users\josh0_000\Documents\Unreal Projects\Bricky_Jump\Bricky_Jump.uproject=True
+[2015.03.26-15.56.11:104][275]MainFrameActions: Cooking (Windows): InternalUtils.SafeFileExists: SafeFileExists C:\Users\josh0_000\Documents\Unreal Projects\Bricky_Jump\Bricky_Jump.uproject=True
+[2015.03.26-15.56.11:132][277]MainFrameActions: Cooking (Windows): BuildCookRun.SetupParams: Setting up ProjectParams for C:\Users\josh0_000\Documents\Unreal Projects\Bricky_Jump\Bricky_Jump.uproject
+[2015.03.26-15.56.17:216][590]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.26-15.56.17:701][590]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.1
+'
+[2015.03.26-15.56.20:345][738]SourceControl:Error: Error You should check out a working copy into your project directory.
+[2015.03.26-15.56.20:346][738]SourceControl:Error: Error Project is not part of a Git working copy.
+[2015.03.26-15.56.28:975][207]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.26-15.56.29:060][207]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.1
+'
+[2015.03.26-15.56.29:060][207]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.26-15.56.29:102][207]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.1
+'
+[2015.03.26-15.57.40:829][414]SourceControl: Info Source control is disabled
+[2015.03.26-15.58.36:536][403]LogSourceControl:Error: P4ERROR: Invalid connection to server.
+[2015.03.26-15.58.36:536][403]LogSourceControl:Error: Connect to server failed; check $P4PORT.
+TCP connect to perforce:1666 failed.
+No such host is known. 
+
+[2015.03.26-15.59.57:620][943]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.26-15.59.57:671][943]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.1
+'
+[2015.03.26-15.59.59:715][ 58]SourceControl:Error: Error You should check out a working copy into your project directory.
+[2015.03.26-15.59.59:715][ 58]SourceControl:Error: Error Project is not part of a Git working copy.
+[2015.03.26-16.02.01:629][885]SourceControl: Info Source control is disabled
+[2015.03.26-16.04.15:341][340]LogSavePackage: Save=119.370316ms
+[2015.03.26-16.04.15:341][340]LogSavePackage: Moving '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/First_Level_Auto1F6D499D64FA10E97141B02BE5CBD0C4B.tmp' to '../../../../../../Users/josh0_000/Documents/Unreal Projects/Bricky_Jump/Saved/Autosaves/Game/Levels/First_Level_Auto1.umap'
+[2015.03.26-16.04.15:354][340]LogFileHel
